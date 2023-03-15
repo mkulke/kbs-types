@@ -13,6 +13,7 @@ pub enum Tee {
     Sev,
     Sgx,
     Snp,
+    SevSnpVtpm,
     Tdx,
 
     // This value is only used for testing an attestation server, and should not
